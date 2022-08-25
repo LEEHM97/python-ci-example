@@ -10,3 +10,8 @@ class MainTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+    # unittest 실행
+    # python -m unittest discover -p "*_test.py"
+    # coverage 만들기
+    # python -m coverage run --source=./ -m unittest discover -p "*_test.py"
+    # python -m coverage xml
